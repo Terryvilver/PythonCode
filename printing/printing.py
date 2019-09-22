@@ -7,3 +7,10 @@ nombre = 12
 
 print(nombre)
 
+nombre = 12.0
+
+print(nombre)
+
+nombre = True
+
+print(nombre)
