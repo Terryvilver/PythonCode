@@ -1,7 +1,7 @@
 #Exercice avec les "inputs"
 
-#Determinez l'age d'un utilisateur en fonction de son année de naissance
-birth_year = input('Année de naissance ? ')
-#print(type(birth_year))
-age = 2019 - int(birth_year) #Utilisation de int() pour convertir mon string(birth_year) en entier pour effectuer mon calcul.
-print("Vous avez " + str(age) + " ans.") #Utilisation de str() pour convertir mon entier en string.
+#Déterminer le poids d'un utilisateur en pounds que l'on convertit ensuite en kg
+weigh_lbs = input("Quel est votre poids en lbs ? ")
+weigh_kg = float(weigh_lbs) * 0.45
+print("votre poids en kg est " + str('%.1f' % weigh_kg))
+#(%.Nf' % variable) permet d'afficher un nombre N de nombre après la virgule
