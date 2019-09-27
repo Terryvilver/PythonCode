@@ -14,5 +14,6 @@ a = input("Entrer le nombre numero 1 : ")
 b = input("Entrer le nombre numero 2 : ")
 c = input("Entrer le nombre numero 3 : ")
 
-print("la moyenne est de " + str('%.1f' % ((a+b+c)/3) ) )
+moyenne = ( int(a) + int(b) + int(c) ) /3
 
+print("la moyenne est de " + str('%.1f' % moyenne ) )
